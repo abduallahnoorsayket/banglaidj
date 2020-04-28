@@ -21,7 +21,11 @@ from blog_post import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-   path('blog/', include('blog_post.urls')),
+    path('blog/', include('blog_post.urls')),
+    path('jwt/', include('jwtpractice.urls')),
+
+
+
 
     # path('contact/', views.contact, name='contact-list'),
     # path('posts/', views.all_posts, name='all-posts')
