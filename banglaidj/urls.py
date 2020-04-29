@@ -27,6 +27,9 @@ urlpatterns = [
 
 
 
+
+
+
     # path('contact/', views.contact, name='contact-list'),
     # path('posts/', views.all_posts, name='all-posts')
 

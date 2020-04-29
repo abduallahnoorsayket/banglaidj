@@ -2,24 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9864978e-cce6-4c0e-a687-df4f74bfe6c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jwtpractice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtpractice/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtpractice/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtpractice/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtpractice/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtpractice/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtpractice/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jwtpractice/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtpractice/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwtpractice/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banglaidj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/banglaidj/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banglaidj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/banglaidj/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtpractice/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jwtpractice/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtpractice/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jwtpractice/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwtpractice/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jwtpractice/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -29,43 +43,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/banglaidj/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwtpractice/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jwtpractice/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jwtpractice/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/banglaidj/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="479">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwtpractice/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jwtpractice/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-40">
+              <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,17 +122,21 @@
         <option value="$PROJECT_DIR$/templates/post_list.html" />
         <option value="$PROJECT_DIR$/templates/single_post.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/banglaidj/urls.py" />
-        <option value="$PROJECT_DIR$/banglaidj/settings.py" />
-        <option value="$PROJECT_DIR$/jwtpractice/views.py" />
+        <option value="$PROJECT_DIR$/users/models.py" />
+        <option value="$PROJECT_DIR$/jwtpractice/serializers.py" />
         <option value="$PROJECT_DIR$/jwtpractice/urls.py" />
+        <option value="$PROJECT_DIR$/jwtpractice/models.py" />
+        <option value="$PROJECT_DIR$/practice_api/views.py" />
+        <option value="$PROJECT_DIR$/jwtpractice/views.py" />
+        <option value="$PROJECT_DIR$/banglaidj/settings.py" />
+        <option value="$PROJECT_DIR$/banglaidj/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="702" />
-    <option name="y" value="19" />
-    <option name="width" value="674" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="679" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -128,7 +155,7 @@
             <path>
               <item name="banglaidj" type="b2602c69:ProjectViewProjectNode" />
               <item name="banglaidj" type="462c0819:PsiDirectoryNode" />
-              <item name="banglaidj" type="462c0819:PsiDirectoryNode" />
+              <item name="jwtpractice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,7 +167,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JWT vitor/drf-jwt-example" />
+    <property name="last_opened_file_path" value="E:/Vue Projects/BlogPostWithVue" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -149,6 +176,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Django new projects\banglaidj" />
       <recent name="E:\django new projects\banglaidj\static" />
     </key>
   </component>
@@ -211,7 +239,14 @@
       <workItem from="1587705802451" duration="1173000" />
       <workItem from="1588011808485" duration="411000" />
       <workItem from="1588012566408" duration="22000" />
-      <workItem from="1588038283670" duration="3909000" />
+      <workItem from="1588038283670" duration="4443000" />
+      <workItem from="1588050667949" duration="233000" />
+      <workItem from="1588052912527" duration="5040000" />
+      <workItem from="1588063333150" duration="48000" />
+      <workItem from="1588072680731" duration="567000" />
+      <workItem from="1588090281483" duration="236000" />
+      <workItem from="1588094745597" duration="6322000" />
+      <workItem from="1588125455746" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="some lines deleted.">
       <created>1587706130842</created>
@@ -220,21 +255,28 @@
       <option name="project" value="LOCAL" />
       <updated>1587706130842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new app added app name jwt practice">
+      <created>1588042258448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588042258448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33204000" />
+    <option name="totallyTimeSpent" value="49865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21068703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1870229" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28156996" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22525597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -243,13 +285,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.33105803" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50076336" side_tool="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49923664" visible="true" weight="0.38225257" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32935154" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49923664" visible="true" weight="0.18259385" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.2901024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32977098" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +339,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some lines deleted." />
-    <option name="LAST_COMMIT_MESSAGE" value="some lines deleted." />
+    <MESSAGE value="new app added app name jwt practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="new app added app name jwt practice" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/template/index.html" />
@@ -366,9 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jwtapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jwtapp/admin.py" />
     <entry file="file://$PROJECT_DIR$/jwtpractice/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -399,27 +440,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/banglaidj/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jwtpractice/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/users/models.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f7da79e7-8173-4bcc-a621-85da0912c12d/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/jwtpractice/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="217" column="71" selection-start-line="217" selection-start-column="71" selection-end-line="217" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -428,10 +492,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/banglaidj/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="479">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banglaidj/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwtpractice/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwtpractice/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jwtpractice/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

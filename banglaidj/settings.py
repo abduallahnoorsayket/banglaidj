@@ -37,21 +37,36 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # DRF
+    'rest_framework',
+
+    # DRF authtoken
+    'rest_framework.authtoken',
+
+
     # Custom app
     'blog_post',
     'jwtpractice',
+
+
 
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+
+     # CORS
+    'corsheaders.middleware.CorsMiddleware',
+
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+# CORS
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'banglaidj.urls'
 
@@ -132,7 +147,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [
+  'DEFAULT_AUTHENTICATION_CLASSES': [
+        # 'rest_framework.authentication.BasicAuthentication',
+        # 'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+
+        # jwt settings
         'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ],
+    ]
 }
